@@ -82,7 +82,7 @@ strong {
     color: red;
 }
 
-div > span {
+div.cost > span {
     color: black;
     text-decoration-line: line-through;
 }
