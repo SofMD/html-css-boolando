@@ -31,7 +31,7 @@ ul{
 }
 
 .discount{
-    font-size: 12px;
+    font-size: 11px;
     color: white;
     position: absolute;
     bottom: 22px;
@@ -46,4 +46,17 @@ ul{
 .discount-type{
     background-color: #00875a;
     padding: 4px;
+}
+
+.col .heart{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+
 }
