@@ -22,10 +22,26 @@ ul{
     display: inline-block;
     width: calc(100% / 3);
     margin: 0 -2px 50px;
-    padding: 0 5px;
-   
+    padding: 0 5px;  
+    position: relative;
 }
 
 .col img{
     width: 100%;
+}
+
+.discount{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+}
+
+.discount-number{
+    background-color: red;
+}
+
+.discount-type{
+    background-color: green;
 }
