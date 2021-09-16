@@ -25,17 +25,29 @@ li {
 .col{
     display: inline-block;
     width: calc(100% / 3);
-    margin: 0 -2px 10px;
+    margin: 0 -2px 50px;
     padding: 0 5px;  
 }
-
+/*pictor*/
 .pictur{
     position: relative;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .col .pictur img{
-    width: 100%;
+    width: 100%;    
+}
+
+.pictur-under {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.pictur:hover .pictur-under {
+    display: block;
 }
 
 .discount{
@@ -68,6 +80,7 @@ li {
     right: 0px;
 }
 
+/*caption*/
 .col .logo  {
     font-size: 12px;
     color: gray;
@@ -86,3 +99,4 @@ div.cost > span {
     color: black;
     text-decoration-line: line-through;
 }
+
